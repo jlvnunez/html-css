@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(161, 154, 154);
+            margin: 0px;
+
+        }
+               h1#principal {
+                text-align: center;
+            }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgba(116, 110, 110, 0.712);
+            padding: 10px;
+            font: italic bold 20px arial serif;
+            /*box-shadow: 1px 3px 1px  black   ;*/
+            box-shadow: 9px 8px 5px 2px rgba(56, 56, 56, 0.808);
+            
+
+        }
+        
+        
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+            color: red;
+            
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 6px 6px 3px #5f5656;
+        }
+
+        article {
+            background-color: rgb(156, 148, 148);
+        }
+
+        article>aside {
+            background-color: lightgray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 4px;
+
+        }
+
+        footer>p {
+            margin: 0px;        
+        }
+
+         div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+         }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="principal">Meu Site</h1>
+    <header>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <article>
+                <h2>Esportes</h2>
+                <p>Fluminense Vence o time Coriano na Copa Mundial de Clubes</p>
+            </article>
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex nisi, placeat officia expedita
+                    assumenda exercitationem commodi aliquid mollitia modi dicta cum perferendis at quis amet doloremque
+                    itaque vero odio.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva </p>
+                </aside>
+            </article>
+            <article>
+                <h2>Atualidades</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit incidunt provident
+                    dignissimos soluta, voluptates a quis odit eius nostrum ad, ea vel autem blanditiis deserunt impedit
+                    commodi. Quis, fugiat.</p>
+                <aside>Escrito por Jose Amancio</aside>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido Pelo Curso em Video</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
