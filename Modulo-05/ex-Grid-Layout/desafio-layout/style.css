@@ -10,14 +10,15 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows:80px 40px 1fr 40px ;
-    grid-template-columns: 1fr 300px;
+    grid-template-rows:80px 40px 1fr 100px ;
+    grid-template-columns: 1fr 150px;
     gap: 5px;
 }
 
 
 .caixa {
     background-color: lightgray;
+    color: blue;
     border: solid black;
     padding: 10px;
     text-align: center;
@@ -44,6 +45,8 @@
 #principal {
      grid-row: 3/4 ;
     grid-column: 1/2 ;
+   
+    
     
     /* grid-area: 3/1 / -2/2; */
 
